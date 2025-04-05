@@ -119,16 +119,5 @@ docker-compose up --build
 ## 📄 License
 
 MIT — free to use, build on, and deploy 🏀
-
-```
-
 ---
-
-📌 Just copy that into your `README.md` and you're good to go!
-
-Let me know if you want:
-- A `CONTRIBUTING.md`
-- Deploy buttons (Vercel, Render, Railway)
-- Dark mode toggle or user login
-
-You're ready for launch 🏀🌍💥
+Built for fun using chatGPT, Kaggle, NBA, and ESPN. ❤️
