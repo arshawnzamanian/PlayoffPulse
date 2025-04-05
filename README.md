@@ -73,14 +73,6 @@ npm install
 
 ---
 
-## 🐳 Docker (Optional)
-
-```bash
-docker-compose up --build
-```
-
----
-
 ## 🔌 API Endpoints
 
 | Endpoint                         | Description                                 |
@@ -112,9 +104,48 @@ docker-compose up --build
 - `nba_api` for live data
 - [shadcn/ui](https://ui.shadcn.dev) for UI components
 - Tailwind CSS
-- You — for making this awesome
+- You — for making this awesome (please contribute!)
 
 ---
+## 🚀 Installation & Setup
+
+To get the project up and running locally, follow these steps:
+
+---
+
+## 📦 Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Git](https://git-scm.com/)
+- Optional: [PostgreSQL](https://www.postgresql.org/) (or other DB if you're using Prisma)
+
+---
+
+## 🔧 Getting Started
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/arshawnzamanian/PlayoffPulse.git
+cd PlayoffPulse
+
+# 2. Install dependencies
+npm install
+# or
+yarn install
+
+# 3. Set up environment variables
+cp .env.example .env
+# Fill in required values in the new `.env` file
+
+# 4. (Optional) Set up the database (if using Prisma)
+npx prisma generate
+npx prisma migrate dev
+
+# 5. Run the development server
+npm run dev
+# or
+yarn dev
 
 ## 📄 License
 
