@@ -146,6 +146,7 @@ npx prisma migrate dev
 npm run dev
 # or
 yarn dev
+```
 
 ## 📄 License
 
